@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>ND-FLIX-TOK</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#000000">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+</head>
+<body>
+
+    <div class="nd-signature">ND-FLIX-TOK | Créé par N'DIAYE ADAMA</div>
+
+    <main class="video-feed" id="video-feed">
+        </main>
+
+    <nav class="bottom-nav">
+        <div class="nav-item active">🏠</div>
+        <div class="nav-item">🔍</div>
+        <div class="nav-plus" id="add-video">+</div>
+        <div class="nav-item">💬</div>
+        <div class="nav-item">👤</div>
+    </nav>
+
+    <div id="camera-layer" class="hidden">
+        <video id="webcam" autoplay playsinline></video>
+        <div class="camera-controls">
+            <button class="close-cam" id="close-cam">×</button>
+            <div class="record-trigger"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
